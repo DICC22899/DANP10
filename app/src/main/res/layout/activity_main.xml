@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--XML code for activity_main.xml-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="120dp"
+        android:text="Seccion de  Grabación" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnRecord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grabar"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:drawableLeft="@drawable/baseline_radio_button_checked_24"/>
+        <Button
+            android:id="@+id/btnStop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:text="Parar"
+            android:drawableLeft="@drawable/baseline_stop_circle_24"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="120dp"
+        android:text="Seccion de  Reproducción" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:text="Reproducir"
+            android:drawableLeft="@drawable/baseline_play_circle_filled_24"/>
+        <Button
+            android:id="@+id/btnStopPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:text="Pausar"
+            android:drawableLeft="@drawable/baseline_pause_24"/>
+    </LinearLayout>
+
+</LinearLayout>
